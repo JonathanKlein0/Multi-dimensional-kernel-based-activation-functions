@@ -1,0 +1,27 @@
+sizes of total trainable parameters / only MKAF part of trainable parameters
+
+2D (dict of size 128):
+sensorless 1:           15179 / 8192
+sensorless 2:           23083 / 12288
+sensorless 2 rescaled:  31691 / 16384
+susy 1:                 26882 / 20480
+susy 2:                 62722 / 30720
+susy 2 rescaled:        98882 / 40960
+mnist:                  34890 / 6144
+mnist rescaled:         64010 / 8192
+cifar-10 2 rescaled:    357210 / 19456
+
+4D (dict of size 256):
+sensorless 1:           14827 / 8192
+sensorless 2:           37371 / 20480 (starts with double of hidden units)
+sensorless 2 rescaled:  27243 / 16384
+susy 1:                 26722 / 20480
+susy 2:                 38202 / 25600
+susy 2 rescaled:        73122 / 40960
+mnist:                  13570 / 5120
+mnist rescaled:         36970 / 8192
+cifar-10 2 rescaled:    194190 / 19456
+
+8D (dict of size 512):
+susy 1:                 26642 / 20480
+susy 2 rescaled:        60242 / 40960
